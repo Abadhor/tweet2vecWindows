@@ -1,0 +1,7 @@
+
+# Custom
+*.pyc
+/model/
+/result/
+
+

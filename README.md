@@ -1,5 +1,8 @@
 Tweet2Vec
 ======================
+
+Source has been modified to work with Windows. Most changes fix line ending bugs.
+
 This repository provides a character-level encoder/trainer for social media posts. See [Tweet2Vec](https://arxiv.org/abs/1605.03481) paper for details.
 
 There are two models implemented in the paper - the character level _tweet2vec_ and a word level baseline. They can be found in their respective directories, with instructions on how to run. General information about prerequisites and data format can be found below.
