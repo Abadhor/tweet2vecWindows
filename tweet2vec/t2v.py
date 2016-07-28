@@ -114,7 +114,7 @@ def load_params_shared(path):
     params = OrderedDict()
 
     with open(path,'r') as f:
-        npzfile = np.load(f)
+        npzfile = np.load(path)
         for kk, vv in npzfile.iteritems():
             params[kk] = theano.shared(vv, name=kk)
 

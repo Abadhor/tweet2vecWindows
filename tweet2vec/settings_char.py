@@ -1,7 +1,7 @@
 # Define all global params here
 
 # Number of epochs
-NUM_EPOCHS = 3
+NUM_EPOCHS = 30
 # Batch size
 N_BATCH = 64
 # Max sequence length
@@ -21,11 +21,11 @@ LEARNING_RATE = 0.01
 # Display frequency
 DISPF = 5
 # Save frequency
-SAVEF = 1000
+SAVEF = 250
 # Regularization
 REGULARIZATION = 0.0001
 # Reload
-RELOAD_MODEL = False
+RELOAD_MODEL = True
 # NAG
 MOMENTUM = 0.9
 # clipping

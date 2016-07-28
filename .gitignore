@@ -1,7 +1,7 @@
 
 # Custom
 *.pyc
-/model/
-/result/
+tweet2vec/model/
+tweet2vec/result/
 
 
